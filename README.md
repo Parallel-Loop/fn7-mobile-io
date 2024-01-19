@@ -25,7 +25,9 @@ Details: Start by creating a new branch. This will be your workspace for making 
 **Path**: `root_project/assets/images/`
 
 
-![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
+![Alt text](first_step?raw=true "Optional Title")
+![Alt text](branches_images?raw=true "Optional Title")
+![Alt text](step3?raw=true "Optional Title")
 
 Details: Add app_icon.png to the specified path and update config.json with the file name. Do not commit these changes yet.
 
