@@ -11,7 +11,6 @@ Creating a new platform involves several important steps. Here's a step-by-step 
 **Task**: Create a new branch from the `dev/deskhub` branch.  
 **Files to Modify**:  
 - `root_project/lib/app_config.dart`  
-- `root_project/config.json`
 
 Image:
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
