@@ -23,8 +23,9 @@ Details: Start by creating a new branch. This will be your workspace for making 
 **File**: - `root_project/lib/app_config.dart`
 
 
-![Alt text](branches_images.png?raw=true "Optional Title")
-
+![Alt text](app_config_first.png?raw=true "Optional Title")
+![Alt text](appconfig_edit.png?raw=true "Optional Title")
+![Alt text](commit_changes.png?raw=true "Optional Title")
 Details: Modify the `app_config.dart` file with platform-specific details like theme, URLs, and metadata creation rules. Commit these changes.
 ### 3. Configure Config.json
 
