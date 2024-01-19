@@ -41,17 +41,17 @@ Image:
 Details: In Firebase, add your app and get the necessary configuration files. Update your project with these details.
 ### 6. Auth0 Configuration
 
-Tasks:
+**Tasks**:
 Add new package name as redirect URLs in Auth0 dashboard.
 Image: 
 Details: Configure Auth0 by adding your new package name as the redirect and logout redirect URLs.
 ### 7. Finalize Config.json and Create PR
 
-Task: Commit changes to config.json in a new branch and create a Pull Request.
+**Task**: Commit changes to config.json in a new branch and create a Pull Request.
 Image: 
 Details: Once all configurations are done, commit your final changes to config.json, create a new branch, and open a Pull Request.
 ### 8. Build and Test
 
-Task: Add the label DeliverToTesters to the PR.
+**Task**: Add the label DeliverToTesters to the PR.
 Image: 
 Details: Trigger a workflow that builds the new app. Testers will receive an invite via email to test the app.
