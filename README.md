@@ -12,7 +12,7 @@ Task: Create a new branch from the dev/deskhub branch.
 Files to Modify:
 root_project/lib/app_config.dart
 root_project/config.json
-Image: ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+Image: ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 ℎhy
 Step1:BranchCreation(image-url)
 Details: Start by creating a new branch. This will be your workspace for making necessary changes without affecting the main codebase.
