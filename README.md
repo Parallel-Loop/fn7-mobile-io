@@ -24,10 +24,9 @@ Details: Start by creating a new branch. This will be your workspace for making 
 
 **Path**: `root_project/assets/images/`
 
-
-![Alt text](first_step?raw=true "Optional Title")
-![Alt text](branches_images?raw=true "Optional Title")
-![Alt text](step3?raw=true "Optional Title")
+![Alt text](image_asset.png?raw=true "Optional Title")
+![Alt text](uplaod_file.png?raw=true "Optional Title")
+![Alt text](commitimage.png?raw=true "Optional Title")
 
 Details: Add app_icon.png to the specified path and update config.json with the file name. Do not commit these changes yet.
 
