@@ -13,7 +13,9 @@ Creating a new platform involves several important steps. Here's a step-by-step 
 - `root_project/lib/app_config.dart`  
 
 Image:
-![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
+![Alt text](first_step.png?raw=true "Optional Title")
+![Alt text](branches_images.png?raw=true "Optional Title")
+![Alt text](step3.png?raw=true "Optional Title")
 
 Details: Start by creating a new branch. This will be your workspace for making necessary changes without affecting the main codebase.
 ### 2. Update AppConfig File
@@ -21,7 +23,7 @@ Details: Start by creating a new branch. This will be your workspace for making 
 **File**: - `root_project/lib/app_config.dart`
 
 Image: 
-![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
+![Alt text](branches_images.png?raw=true "Optional Title")
 
 Details: Modify the `app_config.dart` file with platform-specific details like theme, URLs, and metadata creation rules. Commit these changes.
 ### 3. Configure Config.json
