@@ -13,7 +13,7 @@ Creating a new platform involves several important steps. Here's a step-by-step 
 - `root_project/lib/app_config.dart`  
 - `root_project/config.json`
 
-Image: 
+Image: ![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 Details: Start by creating a new branch. This will be your workspace for making necessary changes without affecting the main codebase.
 ### 2. Update AppConfig File
 
