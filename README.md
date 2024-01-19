@@ -18,16 +18,27 @@ Creating a new platform involves several important steps. Here's a step-by-step 
 ![Alt text](step3?raw=true "Optional Title")
 
 Details: Start by creating a new branch. This will be your workspace for making necessary changes without affecting the main codebase.
-### 2. Update AppConfig File
+
+
+### 2. Add App Icon
+
+**Path**: `root_project/assets/images/`
+
+
+![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
+
+Details: Add app_icon.png to the specified path and update config.json with the file name. Do not commit these changes yet.
+
+### 3. Update AppConfig File
 
 **File**: - `root_project/lib/app_config.dart`
 
 
 ![Alt text](app_config_first.png?raw=true "Optional Title")
 ![Alt text](appconfig_edit.png?raw=true "Optional Title")
-![Alt text](commit_changes.png?raw=true "Optional Title")
+
 Details: Modify the `app_config.dart` file with platform-specific details like theme, URLs, and metadata creation rules. Commit these changes.
-### 3. Configure Config.json
+### 4. Configure Config.json
 
 **File**: - `root_project/config.json`
 
@@ -36,14 +47,6 @@ Details: Modify the `app_config.dart` file with platform-specific details like t
 
 Details: Provide the necessary information in the config.json file but hold off on committing these changes.
 
-### 4. Add App Icon
-
-**Path**: `root_project/assets/images/`
-
-
-![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
-
-Details: Add app_icon.png to the specified path and update config.json with the file name. Do not commit these changes yet.
 ### 5. Firebase Setup
 
 **Tasks**:
