@@ -7,11 +7,11 @@ This comprehensive guide is designed to walk you through the process of creating
 Creating a new platform involves several important steps. Here's a step-by-step guide to ensure a smooth process.
 
 ### 1. Create a New Branch
+**Task**: Create a new branch from the `dev/deskhub` branch.  
+**Files to Modify**:  
+- `root_project/lib/app_config.dart`  
+- `root_project/config.json`
 
-Task: Create a new branch from the dev/deskhub branch.
-Files to Modify:
-root_project/lib/app_config.dart
-root_project/config.json
 Image: ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 ℎhy
 Step1:BranchCreation(image-url)
