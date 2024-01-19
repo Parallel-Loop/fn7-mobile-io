@@ -1,6 +1,6 @@
 # Guide to Creating a New Platform on GitHub
 
-This comprehensive guide is designed to walk you through the process of creating a new platform using an existing Git project. It outlines a series of manual steps that involve branch creation, file modification, Firebase and Auth0 configuration, and more. Each step is detailed with corresponding images to ensure clarity and ease of understanding. This guide is perfect for developers looking to extend their project with a new platform while utilizing GitHub's powerful tools.
+This comprehensive guide is designed to walk you through the process of creating a new platform using an existing Git project. It outlines a series of manual steps that involve branch creation, file modification, Firebase, Auth0 configuration, and more. Each step is detailed with corresponding images to ensure clarity and ease of understanding.
 
 ## Platform Creation
 
