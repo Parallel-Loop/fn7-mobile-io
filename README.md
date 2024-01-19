@@ -8,34 +8,35 @@ Creating a new platform involves several important steps. Here's a step-by-step 
 
 ### 1. Create a New Branch
 
-Task: Create a new branch from the dev/deskhub branch.
-Files to Modify:
-root_project/lib/app_config.dart
-root_project/config.json
+**Task**: Create a new branch from the `dev/deskhub` branch.  
+**Files to Modify**:  
+- `root_project/lib/app_config.dart`  
+- `root_project/config.json`
+
 Image: 
 Details: Start by creating a new branch. This will be your workspace for making necessary changes without affecting the main codebase.
 ### 2. Update AppConfig File
 
-File: root_project/lib/app_config.dart
+**File**: - `root_project/lib/app_config.dart`
 Image: 
 Details: Modify the app_config.dart file with platform-specific details like theme, URLs, and metadata creation rules. Commit these changes.
 ### 3. Configure Config.json
 
-File: root_project/config.json
+**File**: - `root_project/config.json`
 Image: 
 Details: Provide necessary information in the config.json file but hold off on committing these changes.
 ### 4. Add App Icon
 
-Path: root_project/assets/images/
+**Path**: `root_project/assets/images/`
 Image: 
 Details: Add app_icon.png to the specified path and update config.json with the file name. Do not commit these changes yet.
 ### 5. Firebase Setup
 
-Tasks:
+**Tasks**:
 Add an Android app in the Firebase console.
-Download google-services.json.
-Update config.json with the AppId.
-Convert google-services.json to base64 and update the GitHub secret.
+Download `google-services.json`.
+Update `config.json` with the AppId.
+Convert `google-services.json` to **base64** and update the GitHub secret.
 Image: 
 Details: In Firebase, add your app and get the necessary configuration files. Update your project with these details.
 ### 6. Auth0 Configuration
