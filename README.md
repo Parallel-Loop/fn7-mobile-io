@@ -12,7 +12,7 @@ Creating a new platform involves several important steps. Here's a step-by-step 
 **Files to Modify**:  
 - `root_project/lib/app_config.dart`  
 
-Image:
+
 ![Alt text](first_step?raw=true "Optional Title")
 ![Alt text](branches_images?raw=true "Optional Title")
 ![Alt text](step3?raw=true "Optional Title")
@@ -22,7 +22,7 @@ Details: Start by creating a new branch. This will be your workspace for making 
 
 **File**: - `root_project/lib/app_config.dart`
 
-Image: 
+
 ![Alt text](branches_images.png?raw=true "Optional Title")
 
 Details: Modify the `app_config.dart` file with platform-specific details like theme, URLs, and metadata creation rules. Commit these changes.
@@ -30,7 +30,7 @@ Details: Modify the `app_config.dart` file with platform-specific details like t
 
 **File**: - `root_project/config.json`
 
-Image: 
+
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 
 Details: Provide the necessary information in the config.json file but hold off on committing these changes.
@@ -39,7 +39,7 @@ Details: Provide the necessary information in the config.json file but hold off 
 
 **Path**: `root_project/assets/images/`
 
-Image: 
+
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 
 Details: Add app_icon.png to the specified path and update config.json with the file name. Do not commit these changes yet.
@@ -51,7 +51,7 @@ Details: Add app_icon.png to the specified path and update config.json with the 
 - Update `config.json` with the AppId.
 - Convert `google-services.json` to **base64** and update the GitHub secret.
   
-Image:
+
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 
 Details: In Firebase, add your app and get the necessary configuration files. Update your project with these details.
@@ -61,7 +61,7 @@ Details: In Firebase, add your app and get the necessary configuration files. Up
 **Tasks**:
 - Add new package name as redirect URLs in Auth0 dashboard.
   
-Image: 
+
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 
 Details: Configure Auth0 by adding your new package name as the redirect and logout redirect URLs.
@@ -71,7 +71,7 @@ Details: Configure Auth0 by adding your new package name as the redirect and log
 **Task**:
 - Commit changes to config.json in a new branch and create a Pull Request.
   
-Image: 
+
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 
 Details: Once all configurations are done, commit your final changes to config.json, create a new branch, and open a Pull Request.
@@ -80,7 +80,7 @@ Details: Once all configurations are done, commit your final changes to config.j
 **Task**:
 - Add the label DeliverToTesters to the PR.
 
-Image: 
+
 ![Alt text](s3platform_ec.europa.eu.jpg?raw=true "Optional Title")
 
 Details: Trigger a workflow that builds the new app. Testers will receive an invite via email to test the app.
